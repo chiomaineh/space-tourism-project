@@ -1,4 +1,6 @@
-export const TechnologyData = [
+import type { Technology } from "../types";
+
+export const TechnologyData: Technology[] = [
   {
     name: "LAUNCH VEHICLE",
     description:

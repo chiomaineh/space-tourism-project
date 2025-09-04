@@ -1,4 +1,6 @@
-export const Destinations = [
+import type { Destination } from "../types";
+
+export const Destinations: Destination[] = [
   {
     name: "Moon",
     image: "./src/assets/destination/image-moon.png",

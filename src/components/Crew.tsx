@@ -1,7 +1,7 @@
 import crewMobile from "../assets/crew/background-crew-mobile.jpg";
 import crewTablet from "../assets/crew/background-crew-tablet.jpg";
 import crewDesktop from "../assets/crew/background-crew-desktop.jpg";
-import Header from "./header";
+import Header from "./Header";
 
 import { CrewMembers } from "../data/crewmembers";
 import { useState } from "react";
@@ -57,9 +57,9 @@ function Crew() {
 
             {/* Navigation Dots */}
             <div className="flex gap-4 mt-6">
-              {CrewMembers.map((_, index) => (
+              {CrewMembers.map((crew, index) => (
                 <button
-                  key={index}
+                  key={crew.name}
                   onClick={() => setActiveIndex(index)}
                   className={`w-3 h-3 rounded-full mt-5 transition-colors ${
                     activeIndex === index

@@ -1,4 +1,6 @@
-export const CrewMembers = [
+import type { CrewMember } from "../types";
+
+export const CrewMembers: CrewMember[] = [
   {
     position: "COMMANDER",
     name: "DOUGLAS HURLEY",

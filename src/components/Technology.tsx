@@ -4,7 +4,7 @@ import techDesktop from "../assets/technology/background-technology-desktop.jpg"
 
 import { TechnologyData } from "../data/techData";
 import { useState } from "react";
-import Header from "./header";
+import Header from "./Header";
 
 function Technology() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -61,9 +61,9 @@ function Technology() {
             <div className="flex flex-col xl:flex-row items-center gap-10">
               {/* Navigation Circles */}
               <div className="flex xl:flex-col gap-6">
-                {TechnologyData.map((_, index) => (
+                {TechnologyData.map((tech, index: number) => (
                   <button
-                    key={index}
+                    key={tech.name}
                     onClick={() => setActiveIndex(index)}
                     className={`w-10 h-10 md:w-14 md:h-14 flex items-center justify-center rounded-full border transition-colors text-lg md:text-2xl font-belleFair ${
                       activeIndex === index

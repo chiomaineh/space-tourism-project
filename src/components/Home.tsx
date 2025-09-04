@@ -1,7 +1,7 @@
 import bgMobile from "../assets/home/background-home-mobile.jpg";
 import bgTablet from "../assets/home/background-home-tablet.jpg";
 import bgDesktop from "../assets/home/background-home-desktop.jpg";
-import Header from "./header";
+import Header from "./Header";
 import { NavLink } from "react-router-dom";
 function Home() {
   return (

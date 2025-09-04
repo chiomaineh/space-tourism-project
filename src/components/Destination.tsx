@@ -1,4 +1,4 @@
-import Header from "./header";
+import Header from "./Header";
 import destinationMobile from "../assets/destination/background-destination-mobile.jpg";
 import destinationTablet from "../assets/destination/background-destination-tablet.jpg";
 import destinationDesktop from "../assets/destination/background-destination-desktop.jpg";
