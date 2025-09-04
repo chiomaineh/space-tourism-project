@@ -1,10 +1,10 @@
 import "./App.css";
 import "./index.css";
-import Home from "./components/Home";
+import Home from "./components/home";
 import { Route, Routes } from "react-router-dom";
-import Destination from "./components/Destination";
-import Crew from "./components/Crew";
-import Technology from "./components/Technology";
+import Destination from "./components/destination";
+import Crew from "./components/crew";
+import Technology from "./components/technology";
 
 function App() {
   return (

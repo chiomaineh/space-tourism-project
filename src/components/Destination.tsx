@@ -1,9 +1,9 @@
-import Header from "./Header";
+import Header from "./header";
 import destinationMobile from "../assets/destination/background-destination-mobile.jpg";
 import destinationTablet from "../assets/destination/background-destination-tablet.jpg";
 import destinationDesktop from "../assets/destination/background-destination-desktop.jpg";
 
-import { Destinations } from "../data/Destinations";
+import { Destinations } from "../data/destinations";
 import { useState } from "react";
 
 function Destination() {

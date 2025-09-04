@@ -50,7 +50,7 @@ function Header() {
             </li>
             <li>
               <NavLink
-                to="/Destination"
+                to="/destination"
                 className={({ isActive }) =>
                   isActive ? "border-b-4" : "border-b-0"
                 }
@@ -60,7 +60,7 @@ function Header() {
             </li>
             <li>
               <NavLink
-                to="/Crew"
+                to="/crew"
                 className={({ isActive }) =>
                   isActive ? "border-b-4" : "border-b-0"
                 }
@@ -70,7 +70,7 @@ function Header() {
             </li>
             <li>
               <NavLink
-                to="/Technology"
+                to="/technology"
                 className={({ isActive }) =>
                   isActive ? "border-b-4" : "border-b-0"
                 }

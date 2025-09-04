@@ -1,9 +1,9 @@
 import crewMobile from "../assets/crew/background-crew-mobile.jpg";
 import crewTablet from "../assets/crew/background-crew-tablet.jpg";
 import crewDesktop from "../assets/crew/background-crew-desktop.jpg";
-import Header from "./Header";
+import Header from "./header";
 
-import { CrewMembers } from "../data/CrewMembers";
+import { CrewMembers } from "../data/crewmembers";
 import { useState } from "react";
 
 function Crew() {
