@@ -3,8 +3,9 @@ import destinationMobile from "../assets/destination/background-destination-mobi
 import destinationTablet from "../assets/destination/background-destination-tablet.jpg";
 import destinationDesktop from "../assets/destination/background-destination-desktop.jpg";
 
-import { Destinations } from "../data/destinations";
+import { Destinations } from "../data/Destinations";
 import { useState } from "react";
+import type { Destination } from "../types";
 
 function Destination() {
   const [active, setActive] = useState(0);
@@ -49,7 +50,7 @@ function Destination() {
         <div className="flex flex-col items-center lg:items-start text-center lg:text-left mt-10 lg:mt-0 max-w-xl gap-6">
           {/* Tabs */}
           <ul className="flex gap-6 uppercase tracking-widest text-sm md:text-base">
-            {Destinations.map((Dest, index) => (
+            {Destinations.map((Dest, index: number) => (
               <li
                 key={Dest.name}
                 onClick={() => setActive(index)}

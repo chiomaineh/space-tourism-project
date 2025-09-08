@@ -3,8 +3,9 @@ import crewTablet from "../assets/crew/background-crew-tablet.jpg";
 import crewDesktop from "../assets/crew/background-crew-desktop.jpg";
 import Header from "./Header";
 
-import { CrewMembers } from "../data/crewmembers";
+import { CrewMembers } from "../data/CrewMembers";
 import { useState } from "react";
+import type { CrewMember } from "../types";
 
 function Crew() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -57,7 +58,7 @@ function Crew() {
 
             {/* Navigation Dots */}
             <div className="flex gap-4 mt-6">
-              {CrewMembers.map((crew, index) => (
+              {CrewMembers.map((crew, index: number) => (
                 <button
                   key={crew.name}
                   onClick={() => setActiveIndex(index)}
