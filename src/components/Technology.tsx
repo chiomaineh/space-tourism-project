@@ -5,7 +5,7 @@ import techDesktop from "../assets/technology/background-technology-desktop.jpg"
 import { TechnologyData } from "../data/TechData";
 import { useState } from "react";
 import Header from "./Header";
-import type { Technology } from "../types";
+
 
 function Technology() {
   const [activeIndex, setActiveIndex] = useState(0);

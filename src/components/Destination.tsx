@@ -5,7 +5,7 @@ import destinationDesktop from "../assets/destination/background-destination-des
 
 import { Destinations } from "../data/Destinations";
 import { useState } from "react";
-import type { Destination } from "../types";
+
 
 function Destination() {
   const [active, setActive] = useState(0);

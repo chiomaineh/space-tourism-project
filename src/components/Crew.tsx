@@ -5,7 +5,7 @@ import Header from "./Header";
 
 import { CrewMembers } from "../data/CrewMembers";
 import { useState } from "react";
-import type { CrewMember } from "../types";
+
 
 function Crew() {
   const [activeIndex, setActiveIndex] = useState(0);
