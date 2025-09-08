@@ -42,7 +42,7 @@ function Header() {
               <NavLink
                 to="/"
                 className={({ isActive }) =>
-                  isActive ? "border-b-4" : "border-b-0"
+                  isActive ? "border-b-4" :"border-b-0"
                 }
               >
                 <span className="font-bold mr-1">00</span> HOME
