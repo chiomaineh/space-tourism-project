@@ -68,7 +68,7 @@ Users should be able to:
 - How to use `NavLink` with React Router for **active states** in navigation.
 - A better understanding of React component structure, props, and conditional class names.
 - How to work with **Figma-to-code translation**, balancing design accuracy with clean implementation.  
-  **Note: Delete this note and the content within this section and replace with your own learnings.**
+
 
 ## Author
 
