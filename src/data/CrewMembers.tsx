@@ -2,6 +2,7 @@ import type { CrewMember } from "../types";
 import Douglas from "../assets/crew/image-douglas-hurley.png";
 import Mark from "../assets/crew/image-mark-shuttleworth.png";
 import Ansari from "../assets/crew/image-anousheh-ansari.png";
+import Victor from "../assets/crew/image-victor-glover.png";
 
 export const CrewMembers: CrewMember[] = [
   {
@@ -25,7 +26,7 @@ export const CrewMembers: CrewMember[] = [
     name: "VICTOR GLOVER",
     description:
       "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. ",
-    image: "./src/assets/crew/image-victor-glover.png",
+    image: Victor,
   },
 
   {
