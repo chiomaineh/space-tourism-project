@@ -19,7 +19,7 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 
 ### The challenge
 
-Users shoyld be able to:
+Users should be able to:
 
 - View the optimal layout for each of the website's pages depending on their device's screen size
 - See hover states for all interactive elements on the page
@@ -38,7 +38,7 @@ Users shoyld be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://space-tourism-project-eight.vercel.app/)
 
 ## My process
 
