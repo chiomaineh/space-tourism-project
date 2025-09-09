@@ -3,9 +3,8 @@ import destinationMobile from "../assets/destination/background-destination-mobi
 import destinationTablet from "../assets/destination/background-destination-tablet.jpg";
 import destinationDesktop from "../assets/destination/background-destination-desktop.jpg";
 
-import { Destinations } from "../data/Destinations";
 import { useState } from "react";
-
+import Destinations from "../data/Destinations";
 
 function Destination() {
   const [active, setActive] = useState(0);

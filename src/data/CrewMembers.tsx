@@ -1,4 +1,7 @@
 import type { CrewMember } from "../types";
+import Douglas from "../assets/crew/image-douglas-hurley.png";
+import Mark from "../assets/crew/image-mark-shuttleworth.png";
+import Ansari from "../assets/crew/image-anousheh-ansari.png";
 
 export const CrewMembers: CrewMember[] = [
   {
@@ -6,7 +9,7 @@ export const CrewMembers: CrewMember[] = [
     name: "DOUGLAS HURLEY",
     description:
       "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.",
-    image: "./src/assets/crew/image-douglas-hurley.png",
+    image: Douglas,
   },
 
   {
@@ -14,7 +17,7 @@ export const CrewMembers: CrewMember[] = [
     name: "MARK SHUTTLEWORTH",
     description:
       "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.",
-    image: "./src/assets/crew/image-mark-shuttleworth.png",
+    image: Mark,
   },
 
   {
@@ -30,6 +33,6 @@ export const CrewMembers: CrewMember[] = [
     name: "ANOUSHEH ANSARI",
     description:
       "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space. ",
-    image: "./src/assets/crew/image-anousheh-ansari.png",
+    image: Ansari,
   },
 ];
